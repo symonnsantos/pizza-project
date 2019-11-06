@@ -1,0 +1,27 @@
+h1 {
+    padding-top: 20px;
+    font-family: Bahnschrift;
+    text-align: center;
+    color: #76191A;
+    padding-bottom: 0px;
+}
+
+body {
+    padding-top: 80px;
+    height: 100%x;
+    background-image: url(../../assets/banner-monte.jpg);
+}
+
+.form-group {        
+    background-color: white;
+    height: 100%;
+}
+
+
+.cont2 {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 450px;
+}

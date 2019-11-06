@@ -1,0 +1,18 @@
+body {
+    padding-top: 150px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../../assets/banner-monte.jpg);
+}
+
+h1 {    
+    font-family: Impact;
+    font-size: 80px;
+    color: #76191A;    
+}
+
+h2 {
+    font-family: Impact;
+    font-size: 35px;  
+}

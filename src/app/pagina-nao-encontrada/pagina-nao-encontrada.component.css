@@ -1,0 +1,22 @@
+.container {
+    padding-top: 150px;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    font-family: Bahnschrift;
+    background-image: url(../../assets/banner-monte.jpg);
+}
+
+.err {
+    font-family: Impact;
+    font-size: 80px;
+    color: #76191A;
+}
+
+i {
+    color: #76191A;
+}
+
+h1 {
+    font-family: Impact;
+}
