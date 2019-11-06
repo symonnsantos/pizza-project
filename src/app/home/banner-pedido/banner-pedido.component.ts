@@ -14,7 +14,7 @@ export class BannerPedidoComponent implements OnInit {
   }
 
   monte(){
-    this._route.navigate(['/pedidos-online'])
+    this._route.navigate(['/pedidos-online/montar-pedido'])
   }
 
 }
