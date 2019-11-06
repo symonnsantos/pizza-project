@@ -1,2 +1,17 @@
-<p>cardapio works!</p>
-Cardápio aqui
+<table class="banner">
+        <p class="top">Escolha à vontade</p>   
+
+        <div class="card-group">
+            <div *ngFor="let pizza of pizzas" class="card">                        
+                <img class="card-img-top" src="../../../assets/pizza{{pizza.id}}.jpg" height="220px" alt="Imagem de capa do card">
+                <div class="card-body">
+                <h3 class="card-title">{{ pizza.nome }}</h3>
+                <p class="card-text">{{ pizza.ingredientes }}</p>
+            </div>
+            <div id="botao">
+                <button class="quero" (click)="escolha(pizza.id)">Eu quero</button>
+            </div>
+            </div>
+        </div>
+
+</table>

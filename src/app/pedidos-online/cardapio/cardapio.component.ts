@@ -1,3 +1,5 @@
+import { PIZZAS } from './pizza.mock';
+import { pizza } from './pizzas.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cardapio.component.css']
 })
 export class CardapioComponent implements OnInit {
+
+  pizzas: pizza[] = PIZZAS;
 
   constructor() { }
 
